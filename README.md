@@ -1,2 +1,2 @@
 # SeaGlider-auto_resend
-Scripts to auto resend missing files after a bad transmission 
+Python and Bash scripts to auto resend missing files after a bad transmission 
