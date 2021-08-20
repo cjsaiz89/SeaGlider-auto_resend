@@ -17,7 +17,7 @@ After each time the script is run, it appends the outcome of the process to an *
 2. The first time you run it, the bash script needs to be set as an executable file with *chmod +x auto_pdos.sh* typed in the terminal where the scipt is located.
 3. Edit the list of seagliders in the *auto_pdos.sh* file.
 4. Execute manually with *./auto_pdos.sh*
-5. Execute automatically with *crontab*. Create a schedule (only one user should create it) by opening a *crontab* file. Type in the terminal *EDITOR=nano crontab -e*, to create and edit a with *nano*. Use *0 * * * * ./auto_pdos.sh* to execute at the top of each hour. Save and check with *crontab -l* that the changes were correctly made. Visit this webpage for reference [https://crontab.guru/].
+5. Execute automatically with *crontab*. Create a schedule (only one user should create it) by opening a *crontab* file. Type in the terminal *EDITOR=nano crontab -e*, to create and edit a with *nano*. Use *0 * * * * ./auto_pdos.sh* to execute at the top of each hour. Save and check with *crontab -l* that the changes were correctly made. Visit this webpage for reference [CRONTAB](https://crontab.guru/).
 
 **How the *auto_resend4.py* reads the missing files from the *baselog.log*?**
 
